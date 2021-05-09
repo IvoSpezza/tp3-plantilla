@@ -1,11 +1,13 @@
-# Trabajo Practico #3
+﻿# Trabajo Practico #3
 Plantilla base y archivos de trabajo para el TP3
 
-## Script 1
+## Script 1: grep -i "\b[x]" $1
+## Script 2: grep -E "^[[:digit:]]{3}""[[:space:]]" $1
+## Script 3: grep -E -i "^[a-z]{3}""[.]""[[:space:]]""[[:digit:]]{1,2}""[,]""[[:space:]]""[2]""[0]" $1
+## Script 4: grep "[a]""[[:alpha:]]""[a]" $1 && grep "[e]""[[:alpha:]]""[e]" $1 && grep "[i]""[[:alpha:]]""[i]" $1 && grep "[o]""[[:alpha:]]""[o]" $1 && grep "[u]""[[:alpha:]]""[u]" $1
+## Script 5: grep ^[^S] $1
+## Script 6: grep -E -i "[@]""[[:alpha:]]{1,}" $1
 
-
-
-## Script 2
 Obtené el archivo grepdata.txt. Puede guardar el archivo en su sistema local o utilizarlo de manera directa desde la línea de comando:
 
 Una vez que tenga el archivo, escriba una serie de instrucciones `grep` que hagan lo siguiente:
